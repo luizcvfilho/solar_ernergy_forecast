@@ -67,15 +67,11 @@ A estrutura do projeto é organizada da seguinte maneira:
 ```bash
    projeto-previsao-energia-solar/
     │
-    ├── data/                   # Diretório para armazenar os dados brutos e processados
+    ├── Data/                   # Diretório para armazenar os dados brutos e processados
     ├── models/                 # Modelos treinados e checkpoints
-    ├── notebooks/              # Jupyter Notebooks para experimentação e análise
-    ├── src/                    # Código fonte do projeto
-    │   ├── data_preparation.py # Scripts para preparação dos dados
-    │   ├── train_model.py      # Script principal para treinamento do modelo
-    │   ├── evaluate_model.py   # Script para avaliação do modelo
-    │   └── utils.py            # Funções utilitárias
     │
+    ├── train_model.py          # Script principal para treinamento do modelo
+    ├── evaluate_model.py       # Script para avaliação do modelo
     ├── requirements.txt        # Arquivo de dependências do projeto
     └── README.md               # Este arquivo
 ```
