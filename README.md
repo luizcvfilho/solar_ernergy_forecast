@@ -68,7 +68,7 @@ A estrutura do projeto é organizada da seguinte maneira:
    projeto-previsao-energia-solar/
     │
     ├── Data/                   # Diretório para armazenar os dados brutos e processados
-    ├── models/                 # Modelos treinados e checkpoints
+    ├── models/                 # Modelos treinado
     │
     ├── train_model.py          # Script principal para treinamento do modelo
     ├── evaluate_model.py       # Script para avaliação do modelo
