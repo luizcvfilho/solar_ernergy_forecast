@@ -64,8 +64,8 @@ Para instalar e configurar o ambiente do projeto, siga os passos abaixo:
 
 A estrutura do projeto é organizada da seguinte maneira:
 
-    ```bash
-    projeto-previsao-energia-solar/
+```bash
+   projeto-previsao-energia-solar/
     │
     ├── data/                   # Diretório para armazenar os dados brutos e processados
     ├── models/                 # Modelos treinados e checkpoints
@@ -78,4 +78,4 @@ A estrutura do projeto é organizada da seguinte maneira:
     │
     ├── requirements.txt        # Arquivo de dependências do projeto
     └── README.md               # Este arquivo
-    ```
+```
