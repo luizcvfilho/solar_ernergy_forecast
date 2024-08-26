@@ -40,8 +40,8 @@ def evaluate_model(model, df_test, dummies):
     print(f'MAPE: {mape}')
 
 def main():
-    model_path = 'models/prophet_model.pkl'  # Ajuste o caminho conforme necessário
-    test_data_path = 'Data/dataframe.csv'  # Ajuste o caminho conforme necessário
+    model_path = 'models/prophet_model.pkl'
+    test_data_path = 'Data/dataframe.csv'
     
     model = joblib.load(model_path)
     df_test, dummies_test = load_test_data(test_data_path, '2023-01-01')
