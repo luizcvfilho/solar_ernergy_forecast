@@ -44,7 +44,7 @@ Para instalar e configurar o ambiente do projeto, siga os passos abaixo:
 
 2. **Treinamento do Modelo:**
 
-   Para treinar o modelo, execute o script principal de treinamento:
+   Para treinar o modelo, altere o caminho presente no script principal de treinamento para o desejado e depois o execute:
 
    ```bash
    python train_model.py
@@ -54,7 +54,7 @@ Para instalar e configurar o ambiente do projeto, siga os passos abaixo:
 
 3. **Avaliação do Modelo:**
 
-    Após o treinamento, você pode avaliar o desempenho do modelo executando:
+    Após o treinamento, você pode avaliar o desempenho do modelo alterando o caminho no script de avaliação e o executando:
 
    ```bash
    python evaluate_model.py
@@ -68,10 +68,12 @@ A estrutura do projeto é organizada da seguinte maneira:
    projeto-previsao-energia-solar/
     │
     ├── Data/                   # Diretório para armazenar os dados brutos e processados
-    ├── models/                 # Modelos treinado
-    │
-    ├── train_model.py          # Script principal para treinamento do modelo
-    ├── evaluate_model.py       # Script para avaliação do modelo
-    ├── requirements.txt        # Arquivo de dependências do projeto
+    ├── models/                 # Modelo treinado
+    ├── scripts/
+    │   ├── train_model.py      # Script principal para treinamento do modelo
+    │   ├── evaluate_model.py   # Script para avaliação do modelo
+    │ 
+    ├── project.ipynb           # Notebook com a análise e manipulação dos dados
+    ├── requirements.txt        # Arquivo de instalações do projeto
     └── README.md               # Este arquivo
 ```
